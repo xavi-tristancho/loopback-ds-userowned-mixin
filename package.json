@@ -1,6 +1,6 @@
 {
   "name": "loopback-ds-userowned-mixin",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A mixin to restrict Model data between owners",
   "main": "index.js",
   "directories": {
