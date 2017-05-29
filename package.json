@@ -1,0 +1,30 @@
+{
+  "name": "loopback-ds-userowned-mixin",
+  "version": "1.0.0",
+  "description": "A mixin to restrict a Model data between owners",
+  "main": "userOwned.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "NODE_ENV=test mocha $(find . -name 'test/*.spec.js')"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xavitb3/loopback-ds-userowned-mixin.git"
+  },
+  "keywords": [
+    "loopbackjs",
+    "user",
+    "js"
+  ],
+  "author": "Xavier Tristancho Bordoy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xavitb3/loopback-ds-userowned-mixin/issues"
+  },
+  "homepage": "https://github.com/xavitb3/loopback-ds-userowned-mixin#readme",
+  "devDependencies": {
+    "chai": "^4.0.0"
+  }
+}
